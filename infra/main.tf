@@ -1,6 +1,3 @@
-variable "region" {}
-variable "ami" {}
-variable "instance_type" {}
 
 provider "aws" {
   region = var.region
